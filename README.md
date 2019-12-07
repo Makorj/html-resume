@@ -1,3 +1,15 @@
+# Forked html résumé
+
+I plan to make it viewable from a webpage, to be responsive with bulma.io and to print in the right format (be it portrait or paysage)
+
+Update made
+* A4 format and milimeter size instead of inches
+* Switched fonts to match my website's ones
+* Switched to google font api (will soon change to local again)
+* Moved from fixed size to 100vh height and 100% width attribute in CSS for the body
+
+## Original about under
+
 # html-resume
 A single-page résumé template done purely with HTML and CSS, which can be rendered into PDF through web browsers' print-to-PDF functionality, making a nice, sleek, professsional and ready-to-print résumé. See my living example at: https://mnjul.net/cv/resume.pdf
 
