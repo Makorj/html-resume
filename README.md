@@ -2,11 +2,20 @@
 
 I plan to make it viewable from a webpage, to be responsive with bulma.io and to print in the right format (be it portrait or paysage)
 
-Update made
+Update made from base version
 * A4 format and milimeter size instead of inches
 * Switched fonts to match my website's ones
 * Switched to google font api (will soon change to local again)
 * Moved from fixed size to 100vh height and 100% width attribute in CSS for the body
+
+Update made with Bulma version
+* Added navigation UI not printed
+* Added translation menu not printed
+* Made it kinda responsive (still a lot to do)
+
+TODO
+* Fix all font sizes to have more unity in the webview
+* Start looking into phone view ?
 
 ## Original about under
 
