@@ -29,7 +29,7 @@
   --decorator-outer-offset-left: -5px;
   --decorator-border-width: 1px;
   --decorator-outer-dim: 9px;
-  --decorator-border: 1px solid #ccc;
+  --decorator-border: 1px solid #aaa;
 
   --row-blocks-padding-top: 5pt;
   --date-block-width: 11mm;
@@ -38,8 +38,8 @@
 }
 
 body{
-  width: 100%;/*var(--page-width);*/
-  height: 100vh; /*var(--page-height);*/
+  width: var(--page-width);
+  height: var(--page-height);
   margin: 0;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 300;
@@ -71,8 +71,9 @@ li{
   width: var(--sidebar-width);
   height: 100%;
   padding: 0.6in var(--sidebar-horizontal-padding);
-  background-color: #f2f2f2;
+  background-color: #ddd;
   font-size: 8.5pt;
+  border-left: solid 1px #555;
 }
 
 /* main */
@@ -218,7 +219,7 @@ li{
   width: var(--decorator-outer-dim);
   height: var(--decorator-outer-dim);
   border-radius: calc(var(--decorator-outer-dim) / 2);
-  background-color: #fff;
+  background-color: #FFF;
 }
 
 .decorator::after{
@@ -329,6 +330,10 @@ li{
 
 /* sidebar */
 
+#sidebar {
+  height: 100vh;
+}
+
 #sidebar h1{
   font-weight: 400;
   font-size: 11pt;
@@ -369,12 +374,13 @@ li{
   font-style: italic;
   line-height: 1.1;
   text-align: right;
-  color: #777;
+  color: rgb(95, 95, 95);
 }
 
 #disclaimer code{
-  color: #666;
+  color: rgb(61, 61, 61);
   font-family: "Source Code Pro";
   font-weight: 400;
   font-style: normal;
+  background-color: transparent;
 }
